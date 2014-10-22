@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  religion_input: MyString
+  popularity: 1
+
+two:
+  religion_input: MyString
+  popularity: 1

@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Religion input:</strong>
+  <%= @religion.religion_input %>
+</p>
+
+<p>
+  <strong>Popularity:</strong>
+  <%= @religion.popularity %>
+</p>
+
+<%= link_to 'Edit', edit_religion_path(@religion) %> |
+<%= link_to 'Back', religions_entry_path %>
