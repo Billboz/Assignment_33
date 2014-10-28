@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  get 'religions/index' => 'religions#index'
-  get 'religions/index' => 'religions#entry'
-  get 'religions/entry' => 'religions#entry'
+#  get 'religions/index' => 'religions#index'
+#  get 'religions/index' => 'religions#entry'
+#  get 'religions/entry' => 'religions#entry'
 
 resources :religions
 root 'application#welcome'

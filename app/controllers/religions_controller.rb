@@ -4,7 +4,7 @@ class ReligionsController < ApplicationController
   # GET /religions
   # GET /religions.json
   def index
-
+    @religions = Religion.all
   end
 
   # GET /religions/1
@@ -13,7 +13,6 @@ class ReligionsController < ApplicationController
   end
 
   def entry
-    @religions = Religion.all
   end
 
   # GET /religions/new
