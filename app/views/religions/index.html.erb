@@ -7,6 +7,7 @@
 <table class="table table-bordered">
   <thead>
   <tr>
+    <th ></th>
     <th>Religion input</th>
     <th>Popularity</th>
     <th colspan="3"></th>
@@ -16,6 +17,7 @@
   <tbody class="table table-striped">
   <% @religions.each do |religion| %>
       <tr>
+        <td><%= image_tag religion.avatar.thumb.url %></td>
         <td><%= religion.religion_input %></td>
         <td><%= religion.popularity %></td>
         <td><%= link_to 'Show', religion %></td>
@@ -25,8 +27,7 @@
   <% end %>
   </tbody>
 </table>
-
-<br>
+ <br>
 
 <%= link_to 'New Religion', new_religion_path %>
 

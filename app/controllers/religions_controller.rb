@@ -72,6 +72,6 @@ class ReligionsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def religion_params
-      params.require(:religion).permit(:religion_input, :popularity)
+      params.require(:religion).permit(:religion_input, :popularity, :avatar)
     end
 end

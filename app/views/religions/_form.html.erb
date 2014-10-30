@@ -19,7 +19,14 @@
     <%= f.label :popularity %><br>
     <%= f.number_field :popularity %>
   </div>
+  <div class="file">
+    <%= f.label :avatar %><br>
+    <%= f.file_field :avatar %>
+  </div>
+  <br/>
+
   <div class="actions">
     <%= f.submit %>
   </div>
+
 <% end %>

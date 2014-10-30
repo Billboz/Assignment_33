@@ -10,5 +10,7 @@
   <%= @religion.popularity %>
 </p>
 
+<%= image_tag @religion.avatar.url %>
+
 <%= link_to 'Edit', edit_religion_path(@religion) %> |
 <%= link_to 'Back', religions_path %>

@@ -34,12 +34,18 @@ gem 'spring',        group: :development
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'mini_magick'
+gem 'carrierwave'
+gem 
 
 # Use debugger
 group :development do
   gem 'sqlite3'
   gem 'better_errors'
   gem 'binding_of_caller'
+  gem 'pry'
+  gem 'pry-debugger'
+  gem 'pry-rails'
 end
 
 group :production do
