@@ -39,6 +39,7 @@ gem 'mini_magick'
 gem 'carrierwave'
 gem 'fog'
 gem 'dotenv-rails'
+gem 'thin'
 
 # Use debugger
 group :development do
