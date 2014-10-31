@@ -36,7 +36,8 @@ gem 'spring',        group: :development
 # gem 'capistrano-rails', group: :development
 gem 'mini_magick'
 gem 'carrierwave'
-gem 
+gem 'fog'
+gem 'dotenv-rails'
 
 # Use debugger
 group :development do
